@@ -22,3 +22,12 @@ console.log( m ); // 14
 let counter = 2;
 counter++;        // works the same as counter = counter + 1, but is shorter
 console.log( counter ); // 3
+let a = (1 + 2, 3 + 4);
+
+console.log( a ); // 7 (the result of 3 + 4)
+let f = 1, b = 1;
+
+let c = ++f; // ?
+let h = b++; // ?
+console.log(c);
+console.log(h);
