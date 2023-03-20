@@ -53,3 +53,28 @@ let aa = 5;
 let yy = aa ** 2;
 console.log(yy);
 
+// let pre=(1 + ( (2 ** 3) * 9 / 5) ) >> 6
+// console.log(pre);
+// let aaa=2**4;
+// console.log(aaa);
+console.log(3 + 4 * 5); // 3 + 20
+// Expected output: 23
+
+console.log(4 * 3 ** 2); // 4 * 9
+// Expected output: 36
+
+// Expected output: 5
+const bb = 4 ** 3 ** 2;
+console.log(bb);
+// program to generate a multiplication table
+
+// take input from the user
+console.log("Table of Three")
+let j=3;
+let n;
+    for (let i=1; i<=8; i++)
+    {
+      n=j*i;
+      console.log(`${j} x ${i}=${n}`)
+    }
+
