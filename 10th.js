@@ -77,4 +77,29 @@ let n;
       n=j*i;
       console.log(`${j} x ${i}=${n}`)
     }
+    let g = 5
+    let e = 9;
+    
+    //create a temporary variable
+    let temp;
+    
+    //swap variables
+    temp = g;
+    g = e;
+    e = temp;
+    
+    console.log(`The value of g after swapping: ${g}`);
+    console.log(`The value of e after swapping: ${e}`);
+    const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
 
+    const searchTerm = 'dog';
+    
+    console.log(`The index of the first "${searchTerm}" from the end is ${paragraph.lastIndexOf(searchTerm)}`);
+    // Expected output: "The index of the first "dog" from the end is 52"
+    function Sum(num1, num2) {
+			return num1 + num2;
+		};
+
+		var result = Sum(10,20);
+    console.log(result);
+    
