@@ -1,8 +1,8 @@
-function mul(v,c){
-    let v=2;
-    let c=7
-    let res=v*c;
-return res;
-
+const x=(x,y) =>x*y
+{
+    console.log(x(3,4));   //Arrow Function
 }
-console.log(res);
+const t=(y,v) =>{
+    return y+v;
+}
+console.log(t(5,5));
