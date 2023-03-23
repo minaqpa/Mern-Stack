@@ -1,2 +1,2 @@
 let value="Skardu";
-console.log(value.indexOf("a"));
+console.log(value.indexOf("d"));
