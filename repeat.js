@@ -1,2 +1,2 @@
 let value="Khaplu";
-console.log(value.repeat(2));
+console.log(value.repeat(3)); 
