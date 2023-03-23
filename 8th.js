@@ -12,7 +12,6 @@ do {
   console.log( t );
   t++;
 } while (t < 3);
-
 for (let k = 0; k < 3; k++) { // shows 0, then 1, then 2
     console.log(k);
   }
