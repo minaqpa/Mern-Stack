@@ -1,2 +1,2 @@
 let value="KHAPLU";
-console.log(value.toLocaleLowerCase());
+console.log(value.toLowerCase());
