@@ -1,3 +1,3 @@
-let name=["Ali","Hassan"];
-name.pop();
-console.log(name);
+let output=["Ali","Hassan"];
+output.pop();
+console.log(output);
