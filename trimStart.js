@@ -1,2 +1,2 @@
-let value="KHAPLU";
+let value="   KHAPLU";
 console.log(value.trimStart());
